@@ -1,11 +1,11 @@
 import React from "react";
-import { Demo } from "../../components/Demo/Demo";
+import { Login } from "../../components/Login/Login";
 
 export const Home = () => {
   return (
     <div>
       <h1>Welcome to the Home Page</h1>
-      <Demo />
+        <Login/>
     </div>
   );
 };
